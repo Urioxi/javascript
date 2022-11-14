@@ -8,6 +8,7 @@ body {
     overflow:visible;
     justify-self: center;
     align-items: center;
+    text-align: center;
 }
 *{
     margin: 0;
@@ -17,7 +18,7 @@ body {
 .date {
     text-align: center;
 }
-.date button {
+button {
     background-color: #333;
     color: #fff;
     width: 100px;
