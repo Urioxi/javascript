@@ -1,0 +1,16 @@
+/* vrac */
+body {
+    background-image: url("../images/wpp.png");
+    color: #333;
+    padding: 0;
+    margin: 0;
+    font-family: 'Prompt', Arial, sans-serif;
+    overflow:visible;
+    justify-self: center;
+    align-items: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
