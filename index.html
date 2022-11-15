@@ -30,19 +30,23 @@
         <img id="monimage" src="images/sun.png" style="width: 100px;">
         <button type="button" onclick="document.getElementById('monimage').src='images/moon.png'">Nuit</button>
 
-    </div>
+    </div><br/>
     <div class="chsty">
 
-        <p id="ok">Ce texte va s'agrandir.</p>
+        <p id="ok">Ce texte va s'agrandir.</p><br/>
         <button type="button" onclick="document.getElementById('ok').style.fontSize = '35px'";>Click me !</button>
 
-    </div>
+    </div><br/>
     
     <div class="docuwrite">
 
         <p>Voici le résultat de 9*2, mais via javascript : <script>document.write(9*2)</script></p>
 
     </div>
+
+    <script>window.alert("Cette alerte est réalisée grâce à window.alert");</script>
+    <script>alert("Cette alerte est réalisée grâce à alert");</script>
+    <script>console.log(9*2);</script>
 
     <script src="javascript/script.js"></script>
 </body>
